@@ -1,0 +1,166 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f4f4f4;
+  padding: 30px;
+  text-align: center;
+}
+
+
+/* Testimonials */
+.testimonials {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Swiper */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #333;
+}
+
+
+.swiper-pagination {
+  position: relative;
+  margin-top: 30px; /* Ajuste conforme necessário */
+}
+
+.swiper-slide.hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Base dos dots */
+.swiper-pagination-bullet {
+  background-color: #000; /* cor do ativo */
+  opacity: 0.3;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: 0 4px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+/* Dot ativo */
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background-color: #000;
+  transform: scale(1.6);
+}
+
+/* Opcional — hover suave nos dots clicáveis */
+.swiper-pagination-bullet:hover {
+  opacity: 0.6;
+}
+
+
+.verified-icon {
+  display: inline-block;
+  width: 56px;
+  height: 56px;
+  margin-left: 5px;
+  background: url('...') no-repeat center/contain;
+}
+
+
+.testimonials {
+  max-width: 1200px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.swiper {
+  padding: 20px;
+}
+
+.swiper-slide {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  height: auto;
+  text-align: left;
+  box-sizing: border-box;
+  height: auto !important;
+}
+
+.swiper-wrapper {
+  box-sizing: border-box;
+}
+
+/* Evita overflow e corte */
+.mySwiper {
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+
+.review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.review-img {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+
+.review-name {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  position: relative;
+}
+
+.review-name:hover {
+  text-decoration: underline;
+}
+
+.google-icon {
+  width: 14px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+
+.review-stars {
+  color: #f9b233;
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.review-text {
+  font-size: 0.95em;
+  margin-top: 5px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background: rgba(7, 3, 3, 0.699);
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: background 0.3s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 16px; 
+}
